@@ -4,6 +4,11 @@ package io.moonnight.leetcode.Array;// Given a collection of intervals, merge al
 // Given [1,3],[2,6],[8,10],[15,18],
 // return [1,6],[8,10],[15,18].
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
 /**
  * Definition for an interval.
  * public class Interval {
@@ -31,7 +36,7 @@ public class ArrayMergeIntervals {
             }
         });
         
-        List<Interval> result = new ArrayList<Interval>();
+        List<Interval> result = new ArrayList<>();
 
         int start = intervals.get(0).start;
         int end = intervals.get(0).end;

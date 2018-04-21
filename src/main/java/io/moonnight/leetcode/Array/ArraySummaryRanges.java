@@ -2,11 +2,14 @@ package io.moonnight.leetcode.Array;// Given a sorted integer array without dupl
 
 // For example, given [0,1,2,4,5,7], return ["0->2","4->5","7"].
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ArraySummaryRanges {
 
     public List<String> summaryRanges(int[] nums) {
         
-        List<String> result = new ArrayList();
+        List<String> result = new ArrayList<>();
         
         if(nums.length == 1) {
             

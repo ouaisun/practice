@@ -1,5 +1,7 @@
 package io.moonnight.leetcode.String;
 
+import java.util.HashMap;
+
 public class StringLongestPalindrome {
 
     public int longestPalindrome(String s) {

@@ -14,13 +14,17 @@ package io.moonnight.leetcode.Array;    // Given a collection of integers that m
 //   []
 // ]
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class ArraySubsetsII {
 
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         
         Arrays.sort(nums);
         
-        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        List<List<Integer>> result = new ArrayList<>();
         
         if(nums.length == 0 || nums == null) return result;
         

@@ -2,6 +2,9 @@ package io.moonnight.leetcode.Array;// Given a sorted integer array where the ra
 
 // For example, given [0, 1, 3, 50, 75], lower = 0 and upper = 99, return ["2", "4->49", "51->74", "76->99"].
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ArrayMissingRanges {
 
     public List<String> findMissingRanges(int[] nums, int lower, int upper) {
